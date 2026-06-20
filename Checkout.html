@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Checkout</title>
+
+<link rel="stylesheet" href="CSS/Style.css">
+
+</head>
+
+<body>
+
+<div class="header">
+
+<img src="images/logo.png" width="100">
+
+<h1>Abo-Rahma Phone-Service</h1>
+
+<div class="header-links">
+
+<a href="index.html">Home</a>
+
+<a href="Cart.html">Cart</a>
+
+</div>
+
+</div>
+
+<div class="checkout-container">
+
+<h2>Checkout</h2>
+
+<input
+type="text"
+id="customer-name"
+placeholder="Full Name"
+required>
+
+<input
+type="text"
+id="customer-phone"
+placeholder="Phone Number"
+required>
+
+<input
+type="text"
+id="customer-address"
+placeholder="Address"
+required>
+
+<textarea
+id="customer-notes"
+placeholder="Notes (Optional)">
+</textarea>
+
+<button
+class="btn"
+onclick="sendOrder()">
+
+Confirm Order
+
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
